@@ -13,7 +13,7 @@ class MessageModel extends Message {
       to: json['to'] ?? '',
       from: json['from'] ?? '',
       content: json['content'] ?? '',
-      timestamp: DateTime.now(), // সার্ভার থেকে টাইমস্ট্যাম্প না এলে লোকাল টাইম ব্যবহার করছি
+      timestamp: DateTime.now(),
     );
   }
 
